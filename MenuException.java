@@ -2,10 +2,10 @@
  * MenuException.java
  * This class contains syntax errors.
  */
-public class MenuException inherits Exception
+public class MenuException extends Exception
   {
     public MenuException(String choice)
     {
-      supper(choice);
+      super(choice);
     }
   }

@@ -23,7 +23,7 @@ public class PlanMenu
       }
       catch(Exception error)
 		{
-    	  //missing code here.
+    	  JOptionPane.showMessageDialog(null, "You chose an invalid menu option");
 		}
       JOptionPane.showMessageDialog(null, "You chose " + guestChoice);
     }
